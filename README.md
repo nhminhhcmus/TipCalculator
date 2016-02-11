@@ -4,4 +4,5 @@ Checklist:
 * [x] Implement both the TipViewController and the SettingsViewController
 * [x] Push code to github
 * [x] Add Readme.md includes a GIF walkthrough of the app’s functionality
+
 ![Video Walkthrough](Record.gif)
