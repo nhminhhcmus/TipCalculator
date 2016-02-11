@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062DC9C11C69FBF800DD4955 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062DC9C01C69FBF800DD4955 /* SettingsViewController.swift */; };
+		062DC9C41C6A5AFE00DD4955 /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062DC9C21C6A5AFE00DD4955 /* SSRadioButton.swift */; };
+		062DC9C51C6A5AFE00DD4955 /* SSRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062DC9C31C6A5AFE00DD4955 /* SSRadioButtonsController.swift */; };
+		063DA3041C68D35D00BE6D67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063DA3031C68D35D00BE6D67 /* AppDelegate.swift */; };
+		063DA3061C68D35D00BE6D67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063DA3051C68D35D00BE6D67 /* ViewController.swift */; };
+		063DA3091C68D35D00BE6D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063DA3071C68D35D00BE6D67 /* Main.storyboard */; };
+		063DA30C1C68D35D00BE6D67 /* tips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 063DA30A1C68D35D00BE6D67 /* tips.xcdatamodeld */; };
+		063DA30E1C68D35D00BE6D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 063DA30D1C68D35D00BE6D67 /* Assets.xcassets */; };
+		063DA3111C68D35D00BE6D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063DA30F1C68D35D00BE6D67 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		062DC9C01C69FBF800DD4955 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		062DC9C21C6A5AFE00DD4955 /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
+		062DC9C31C6A5AFE00DD4955 /* SSRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButtonsController.swift; sourceTree = "<group>"; };
+		063DA3001C68D35D00BE6D67 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		063DA3031C68D35D00BE6D67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		063DA3051C68D35D00BE6D67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		063DA3081C68D35D00BE6D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		063DA30B1C68D35D00BE6D67 /* tips.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tips.xcdatamodel; sourceTree = "<group>"; };
+		063DA30D1C68D35D00BE6D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		063DA3101C68D35D00BE6D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		063DA3121C68D35D00BE6D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		063DA2FD1C68D35D00BE6D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063DA2F71C68D35D00BE6D67 = {
+			isa = PBXGroup;
+			children = (
+				063DA3021C68D35D00BE6D67 /* tips */,
+				063DA3011C68D35D00BE6D67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		063DA3011C68D35D00BE6D67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				063DA3001C68D35D00BE6D67 /* tips.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		063DA3021C68D35D00BE6D67 /* tips */ = {
+			isa = PBXGroup;
+			children = (
+				062DC9C21C6A5AFE00DD4955 /* SSRadioButton.swift */,
+				062DC9C31C6A5AFE00DD4955 /* SSRadioButtonsController.swift */,
+				063DA3031C68D35D00BE6D67 /* AppDelegate.swift */,
+				063DA3051C68D35D00BE6D67 /* ViewController.swift */,
+				063DA3071C68D35D00BE6D67 /* Main.storyboard */,
+				063DA30D1C68D35D00BE6D67 /* Assets.xcassets */,
+				063DA30F1C68D35D00BE6D67 /* LaunchScreen.storyboard */,
+				063DA3121C68D35D00BE6D67 /* Info.plist */,
+				063DA30A1C68D35D00BE6D67 /* tips.xcdatamodeld */,
+				062DC9C01C69FBF800DD4955 /* SettingsViewController.swift */,
+			);
+			path = tips;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		063DA2FF1C68D35D00BE6D67 /* tips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 063DA3151C68D35D00BE6D67 /* Build configuration list for PBXNativeTarget "tips" */;
+			buildPhases = (
+				063DA2FC1C68D35D00BE6D67 /* Sources */,
+				063DA2FD1C68D35D00BE6D67 /* Frameworks */,
+				063DA2FE1C68D35D00BE6D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tips;
+			productName = tips;
+			productReference = 063DA3001C68D35D00BE6D67 /* tips.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		063DA2F81C68D35D00BE6D67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Minh Nguyen";
+				TargetAttributes = {
+					063DA2FF1C68D35D00BE6D67 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6NCPC4MD39;
+					};
+				};
+			};
+			buildConfigurationList = 063DA2FB1C68D35D00BE6D67 /* Build configuration list for PBXProject "tips" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 063DA2F71C68D35D00BE6D67;
+			productRefGroup = 063DA3011C68D35D00BE6D67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				063DA2FF1C68D35D00BE6D67 /* tips */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		063DA2FE1C68D35D00BE6D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063DA3111C68D35D00BE6D67 /* LaunchScreen.storyboard in Resources */,
+				063DA30E1C68D35D00BE6D67 /* Assets.xcassets in Resources */,
+				063DA3091C68D35D00BE6D67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		063DA2FC1C68D35D00BE6D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063DA3061C68D35D00BE6D67 /* ViewController.swift in Sources */,
+				063DA3041C68D35D00BE6D67 /* AppDelegate.swift in Sources */,
+				063DA30C1C68D35D00BE6D67 /* tips.xcdatamodeld in Sources */,
+				062DC9C11C69FBF800DD4955 /* SettingsViewController.swift in Sources */,
+				062DC9C41C6A5AFE00DD4955 /* SSRadioButton.swift in Sources */,
+				062DC9C51C6A5AFE00DD4955 /* SSRadioButtonsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		063DA3071C68D35D00BE6D67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				063DA3081C68D35D00BE6D67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		063DA30F1C68D35D00BE6D67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				063DA3101C68D35D00BE6D67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		063DA3131C68D35D00BE6D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		063DA3141C68D35D00BE6D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		063DA3161C68D35D00BE6D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.tips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		063DA3171C68D35D00BE6D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.tips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		063DA2FB1C68D35D00BE6D67 /* Build configuration list for PBXProject "tips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063DA3131C68D35D00BE6D67 /* Debug */,
+				063DA3141C68D35D00BE6D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		063DA3151C68D35D00BE6D67 /* Build configuration list for PBXNativeTarget "tips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063DA3161C68D35D00BE6D67 /* Debug */,
+				063DA3171C68D35D00BE6D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		063DA30A1C68D35D00BE6D67 /* tips.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				063DA30B1C68D35D00BE6D67 /* tips.xcdatamodel */,
+			);
+			currentVersion = 063DA30B1C68D35D00BE6D67 /* tips.xcdatamodel */;
+			path = tips.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 063DA2F81C68D35D00BE6D67 /* Project object */;
+}
